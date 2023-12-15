@@ -75,7 +75,13 @@ def encrypt_and_display(plaintext, password):
     return ciphertext
 
 def decrypt_and_display(ciphertext, password):
-    print("Ciphertext:", ciphertext)
+    ciphertext2 = str(input("Votre message chiffré: "))
+    password2 = str(input("Votre mot de passe: "))
+    print(ciphertext)
+    print(ciphertext2)
+    print(password)
+    print(password2)
+
     decrypted_text = decrypt(ciphertext, password)
     print("Decrypted Text:", decrypted_text)
 
