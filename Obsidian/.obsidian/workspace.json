@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4d1378d9a45d61ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF/HTB/Starting Point/Redeemer/WU.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/HTB/Starting Point/Fawn/WU.md",
+                "file": "CTF/HTB/Starting Point/Redeemer/WU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/HTB/Starting Point/Fawn/WU.md",
+                "file": "CTF/HTB/Starting Point/Redeemer/WU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/HTB/Starting Point/Fawn/WU.md"
+                "file": "CTF/HTB/Starting Point/Redeemer/WU.md"
               }
             }
           }
@@ -146,23 +159,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d8b5d185dae046d",
+  "active": "9feab56bb126e03f",
   "lastOpenFiles": [
+    "Assets/Pasted image 20240112122052.png",
+    "Assets/Pasted image 20240112121828.png",
+    "Assets/Pasted image 20240112121307.png",
+    "CTF/HTB/Starting Point/Dancing/WU.md",
+    "Assets/Pasted image 20240112121009.png",
+    "CTF/HTB/Starting Point/Redeemer/WU.md",
+    "CTF/HTB/Starting Point/Redeemer",
+    "Assets/Pasted image 20240112120252.png",
+    "CTF/HTB/Starting Point/Fawn/WU.md",
+    "CTF/HTB/Starting Point/Dancing",
     "Assets/Pasted image 20240111224647.png",
     "Assets/Pasted image 20240111224643.png",
     "Assets/Pasted image 20240111224631.png",
     "Assets/Pasted image 20240111224537.png",
     "Assets/Pasted image 20240111223842.png",
     "Pasted image 20240111224647.png",
-    "Pasted image 20240111224643.png",
-    "Pasted image 20240111224631.png",
-    "Pasted image 20240111224537.png",
-    "Pasted image 20240111223842.png",
     "CTF/HTB/Starting Point/Meow/WU.md",
-    "CTF/HTB/Starting Point/Fawn/WU.md",
     "CTF/HTB/Starting Point/Fawn",
     "Assets",
-    "Assets/Pasted image 20240111223231.png",
     "CTF/HTB/Forensic/Untitled.md",
     "CTF/HTB/Starting Point/Meow",
     "CTF/HTB/Starting Point",

@@ -37,4 +37,3 @@ Submit root flag
 ![[Pasted image 20240111224631.png]]
 ![[Pasted image 20240111224643.png]]
 - 035db21c881520061c53e0536e44f815
-- 
