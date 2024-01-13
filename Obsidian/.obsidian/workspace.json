@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b2e75c687395680f",
+        "id": "33cb27d68449aa12",
         "type": "tabs",
         "children": [
           {
-            "id": "2d8b5d185dae046d",
+            "id": "6e3ceeefe1d3e97b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/HTB/Starting Point/Fawn/WU.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4d1378d9a45d61ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CTF/HTB/Starting Point/Redeemer/WU.md",
+                "file": "CTF/HTB/Starting Point/Mongod/WU.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/HTB/Starting Point/Redeemer/WU.md",
+                "file": "CTF/HTB/Starting Point/Mongod/WU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/HTB/Starting Point/Redeemer/WU.md",
+                "file": "CTF/HTB/Starting Point/Mongod/WU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/HTB/Starting Point/Redeemer/WU.md"
+                "file": "CTF/HTB/Starting Point/Mongod/WU.md"
               }
             }
           }
@@ -161,6 +148,17 @@
   },
   "active": "9feab56bb126e03f",
   "lastOpenFiles": [
+    "Pasted image 20240112175259.png",
+    "CTF/HTB/Starting Point/Preignition/WU.md",
+    "CTF/HTB/Starting Point/Mongod/WU.md",
+    "CTF/HTB/Starting Point/Mongod",
+    "Assets/Pasted image 20240112175037.png",
+    "Assets/Pasted image 20240112175023.png",
+    "CTF/HTB/Starting Point/Explosion/WU.md",
+    "CTF/HTB/Starting Point/Preignition",
+    "Assets/Pasted image 20240112174115.png",
+    "CTF/HTB/Starting Point/Fawn/WU.md",
+    "CTF/HTB/Starting Point/Explosion",
     "Assets/Pasted image 20240112122052.png",
     "Assets/Pasted image 20240112121828.png",
     "Assets/Pasted image 20240112121307.png",
@@ -169,22 +167,15 @@
     "CTF/HTB/Starting Point/Redeemer/WU.md",
     "CTF/HTB/Starting Point/Redeemer",
     "Assets/Pasted image 20240112120252.png",
-    "CTF/HTB/Starting Point/Fawn/WU.md",
     "CTF/HTB/Starting Point/Dancing",
     "Assets/Pasted image 20240111224647.png",
     "Assets/Pasted image 20240111224643.png",
-    "Assets/Pasted image 20240111224631.png",
-    "Assets/Pasted image 20240111224537.png",
-    "Assets/Pasted image 20240111223842.png",
-    "Pasted image 20240111224647.png",
     "CTF/HTB/Starting Point/Meow/WU.md",
     "CTF/HTB/Starting Point/Fawn",
     "Assets",
     "CTF/HTB/Forensic/Untitled.md",
     "CTF/HTB/Starting Point/Meow",
     "CTF/HTB/Starting Point",
-    "CTF/HTB/Forensic",
-    "CTF/HTB",
-    "CTF"
+    "CTF/HTB/Forensic"
   ]
 }
