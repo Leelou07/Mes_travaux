@@ -1,0 +1,57 @@
+REM Script DuckyScript pour fouiller le dossier "It's hard to be green" et compter le nombre de fois que le mot "Kermit" apparaît dans tous les fichiers .txt
+
+DELAY 1000
+GUI r
+DELAY 500
+STRING cmd
+DELAY 500
+ENTER
+DELAY 1000
+STRING cd "C:\chemin\vers\It's hard to be green"
+DELAY 500
+ENTER
+DELAY 1000
+STRING dir /s /b *.txt > files.txt
+DELAY 500
+ENTER
+DELAY 1000
+STRING exit
+DELAY 500
+ENTER
+DELAY 1000
+
+REM Ouvrir le fichier files.txt pour obtenir la liste des fichiers .txt
+GUI r
+DELAY 500
+STRING notepad files.txt
+DELAY 500
+ENTER
+DELAY 2000
+
+REM Recherche de "Kermit" dans chaque fichier .txt
+CTRL f
+DELAY 500
+STRING Kermit
+DELAY 500
+ENTER
+DELAY 500
+STRING F3
+DELAY 500
+
+REM Compter le nombre d'occurrences de "Kermit"
+REM (Vous devrez probablement ajuster cette partie en fonction du programme de lecture de texte utilisé)
+DELAY 1000
+CTRL SHIFT right
+DELAY 500
+CTRL C
+DELAY 500
+ALT F4
+DELAY 500
+
+REM Ajouter le nombre d'occurrences dans un fichier de résultat
+REM (Vous pouvez rediriger la sortie vers un fichier ou utiliser d'autres moyens pour enregistrer le résultat)
+REM Exemple : echo %clipboard% >> count.txt
+
+REM Fermer le fichier files.txt
+ALT F4
+DELAY 500
