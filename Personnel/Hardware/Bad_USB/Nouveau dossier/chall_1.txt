@@ -1,0 +1,11 @@
+REM Ouvrir le menu Démarrer
+WINDOWS
+DELAY 500
+REM Taper "Bloc-notes" dans la barre de recherche
+STRING notepad
+DELAY 500
+REM Appuyer sur Entrée pour ouvrir le Bloc-notes
+ENTER
+DELAY 1000
+REM Écrire le message
+STRING Bienvenue au Club Hardware de Guardia

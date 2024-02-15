@@ -1,0 +1,37 @@
+REM Ouvrir le menu Démarrer
+WINDOWS
+DELAY 500
+REM Taper "Bloc-notes" dans la barre de recherche
+STRING Bloc-notes
+DELAY 500
+REM Appuyer sur Entrée pour ouvrir le Bloc-notes
+ENTER
+DELAY 1000
+
+REM Attendre que le Bloc-notes soit ouvert
+REM Écrire des phrases de Kermit
+STRING He Ho! Kermit la grenouille ici!
+DELAY 500
+REM Changer de ligne dans le Bloc-notes
+CTRL s
+DELAY 1000
+REM Ouvrir la boîte de dialogue "Enregistrer sous"
+CTRL MAJ F
+DELAY 500
+STRING kermit.txt
+DELAY 500
+REM Attendre que la boîte de dialogue s'ouvre
+DELAY 1000
+REM Utiliser le raccourci pour accéder au bureau
+CTRL L
+DELAY 500
+STRING Bureau/Bureau
+DELAY 500
+ENTER
+DELAY 500
+REM Nommer le fichier kermit.txt
+DELAY 500
+ALT N
+DELAY 500
+REM Enregistrer le fichier sur le bureau
+ENTER
