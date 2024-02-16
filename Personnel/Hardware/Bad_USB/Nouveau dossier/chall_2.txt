@@ -19,7 +19,7 @@ REM Ouvrir la boîte de dialogue "Enregistrer sous"
 CTRL MAJ F
 DELAY 500
 REM Nommer le fichier kermit.txt
-STRING kermit.txt
+STRING kermit
 DELAY 500
 REM Attendre que la boîte de dialogue s'ouvre
 DELAY 1000
@@ -30,7 +30,8 @@ STRING Bureau/Bureau
 DELAY 500
 ENTER
 DELAY 500
-ALT N
+ENTER
 DELAY 500
 REM Enregistrer le fichier sur le bureau
+DELAY 1500
 ENTER
