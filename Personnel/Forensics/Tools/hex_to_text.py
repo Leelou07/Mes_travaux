@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 import os
 
-# Séquence hexadécimale
-hex_sequence = "504b0304140000000800a231825065235c39420000004700000008001c00666c61672e7478745554090003bfc8855ebfc8855e75780b000104e803000004e80300000dc9c11180300804c0bfd5840408bc33630356e00568c2b177ddef9eeb5a8fe6ee06ce8e5684f0845997192aad44ecaedc7f8e1acc4e3ec1a8eda164d48c28c77b7c504b01021e03140000000800a231825065235c394200000047000000080018000000000001000000a48100000000666c61672e7478745554050003bfc8855e75780b000104e803000004e8030000"
+def get_hex_sequence_from_user():
+    hex_sequence = input("Veuillez entrer la séquence hexadécimale : ").strip()
+    return hex_sequence
 
 try:
+    # Demander la séquence hexadécimale à l'utilisateur
+    hex_sequence = get_hex_sequence_from_user()
+
     # Conversion hexadécimale
     data = bytes.fromhex(hex_sequence)
 
